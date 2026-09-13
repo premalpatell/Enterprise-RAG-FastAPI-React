@@ -1,0 +1,27 @@
+{
+  "document": "temp/2025-26_ARTSCI_Calendar.pdf",
+  "slice": [480, 1180],
+  "_comment": "Ground truth for retrieval evaluation. A question counts as a HIT when a retrieved chunk contains every string in must_contain (case-insensitive). Answers were verified to exist in the sliced source text.",
+  "questions": [
+    { "q": "What is the maximum course load during the Summer Session?",
+      "must_contain": ["maximum course load", "summer", "1.0 credit"] },
+    { "q": "How many credits must a student take to be considered full-time?",
+      "must_contain": ["full-time", "3.0 credits"] },
+    { "q": "What does the code Y1 mean in a course code?",
+      "must_contain": ["y1", "full-credit"] },
+    { "q": "How are extra courses noted on a student's academic record?",
+      "must_contain": ["extra courses", "ext"] },
+    { "q": "What is the recommended course load for full-time students in Fall and Winter?",
+      "must_contain": ["recommended course load", "2.5 credits"] },
+    { "q": "How many credits may a student on Academic Probation take per term?",
+      "must_contain": ["academic probation", "2.5 credits"] },
+    { "q": "What number of credits makes a student part-time?",
+      "must_contain": ["part-time", "2.5 credits or fewer"] },
+    { "q": "Do extra courses count toward a student's GPA?",
+      "must_contain": ["extra courses", "grade point average"] },
+    { "q": "Which academic units offer a Language Citation?",
+      "must_contain": ["language citation"] },
+    { "q": "Who can approve an exception to the maximum course load limits?",
+      "must_contain": ["college registrar"] }
+  ]
+}

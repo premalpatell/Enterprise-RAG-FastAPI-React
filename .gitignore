@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific ---
+# Uploaded source PDFs (large, and often copyrighted third-party material)
+backend/temp/
+
+# Generated FAISS vector store — rebuilt by re-uploading a document
+backend/faiss_index/
+.gstack/
+
+# --- Frontend (React/Node) ---
+frontend/node_modules/
+frontend/dist/
+# --- Project Data & Caches ---
+backend/eval_cache/
+*.npy

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* The Vite starter pinned #root to a fixed 1126px centred column with side
+   borders. The app manages its own layout, so reset it here. */
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
